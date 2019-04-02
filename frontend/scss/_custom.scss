@@ -1,0 +1,59 @@
+.circle-img {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.google-map {
+    background-color: gray;
+    height: 400px;
+}
+
+.card-border {
+    border-bottom: 1px solid gray;
+}
+
+.cardb {
+    width: 150px;
+    height: 450px;
+    background-color: gray;
+}
+
+.carousel-item {
+    margin-right: 0 !important;
+}
+
+.imgE {
+    position: relative;
+    height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    background-color: grey;
+    border-radius: 50%;
+    
+}
+
+.wrap-none{
+    flex-wrap: nowrap !important;
+}
+
+$spacer: 15px;
+
+$spacers: (15: ($spacer),
+);
+
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:992px) {
+    .textC {
+        text-align: center;
+    }
+    li{
+        border-bottom: 1px solid gray;
+    }
+    
+}
