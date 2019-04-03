@@ -20,8 +20,8 @@ owl.owlCarousel({
       }
     }
 });
-$('button').click(function(){
-  $('button').toggleClass('active');
+$('.btn-click').click(function(){
+  $('.btn-click').toggleClass('active');
   $('.title').toggleClass('active');
-  $('nav').toggleClass('active');
+  $('.dropdown-toggle').toggleClass('active');
 });

@@ -98,8 +98,8 @@ $black: #000000;
 
 // Social media
 
-$gmail: #d14836;
-$facebook: #3b5998;
+$callphone: #d14836;
+$telephone: #3b5998;
 $twitter: #1da1f2;
 
 
@@ -181,7 +181,7 @@ body {
 
 .contact {
     position: relative;
-    max-width: 420px;
+    max-width: 660px;
     padding: 40px 20px;
     overflow: hidden;
     margin: 0 auto;
@@ -211,25 +211,27 @@ body {
             .content {
                 float: left;
                 width: 100%;
-                padding: 20px 30px 50px 30px;
+                padding: 10px 30px 30px 30px;
                 position: relative;
                 text-align: center;
+                max-height: 450px;
 
-                @media (min-width: 414px) {
-                    text-align: left;
-                }
+
+               
                 
 
                 aside {
                     width: 100%;
-                    color: $white;
-                    margin-top: 10px;                    
+                    color: $white;                
                     text-align: center;
+
+                    @media (max-width: 1440px) {
+                        height:250px;
+                    }
                     
 
                     h1 {
                         font-weight: 100;
-                        margin-bottom: 10px;
                     }
 
                     p {
@@ -253,7 +255,7 @@ body {
             @include transition(all .55s);
 
             &.active {
-                max-height: 100px;
+                max-height: 50px;
                 @include transition(all 1.3s);
 
                 p {
@@ -263,9 +265,9 @@ body {
             }
 
             p {
-                padding: 15px 30px;
+                padding: 0 30px 15px 30px;
                 color: $white;
-                font-size: 16px;
+                font-size: 20px;
                 display: inline-block;
                 font-weight: 500;
                 text-transform: uppercase;
@@ -305,7 +307,6 @@ body {
                 display: block;
                 width: 200px;
                 float: left;
-                padding: 15px 0px;
             }
 
             svg {
@@ -369,20 +370,15 @@ body {
 
                 &:nth-of-type(2) {
                     transition-delay: .7s;
-                }
-
-                &:nth-of-type(3) {
-                    transition-delay: .9s;
-                }
+                }                
             }
         }
 
         a {
             float: left;
             width: 100%;
-            margin-top: 18px;
-            background-color: $white;
-            padding: 18px 20px;
+            margin-top: 6px;
+            background-color: $white;            
             border-radius: 5px;
             text-decoration: none;
             @include transition(all .3s);
@@ -391,7 +387,7 @@ body {
             position: relative;
 
             @media (min-width: 414px) {
-                padding: 18px 30px;
+                padding: 9px 15px;
             }
 
             .arrow {
@@ -405,30 +401,30 @@ body {
                 }
             }
 
-            &.gmail {
+            &.callphone {
                 .icon {
                     svg {
-                        background-color: $gmail;
+                        background-color: $callphone;
                     }
                 }
 
                 .content {
                     h1 {
-                        color: $gmail;
+                        color: $callphone;
                     }
                 }
             }
 
-            &.facebook {
+            &.telephone {
                 .icon {
                     svg {
-                        background-color: $facebook;
+                        background-color: $telephone;
                     }
                 }
 
                 .content {
                     h1 {
-                        color: $facebook;
+                        color: $telephone;
                     }
                 }
             }
