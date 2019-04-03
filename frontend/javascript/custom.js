@@ -6,7 +6,7 @@ owl.owlCarousel({
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
     responsive: {
       0: {
@@ -19,4 +19,9 @@ owl.owlCarousel({
         items: 3,      
       }
     }
+});
+$('button').click(function(){
+  $('button').toggleClass('active');
+  $('.title').toggleClass('active');
+  $('nav').toggleClass('active');
 });
