@@ -70,9 +70,9 @@ gulp.task('javascript', function () {
     './node_modules/popper.js/dist/umd/popper.js',
     './node_modules/bootstrap/dist/js/bootstrap.js',
     './node_modules/bootstrap-cookie-alert/cookiealert-standalone.js',
-    './node_modules/featherlight/src/featherlight.js',
-    './node_modules/featherlight/src/featherlight.gallery.js',
     './node_modules/owl.carousel/dist/owl.carousel.js',
+    './node_modules/featherlight/src/featherlight.js',
+    './node_modules/featherlight/src/featherlight.gallery.js',    
     './javascript/custom.js'
 
   ];
