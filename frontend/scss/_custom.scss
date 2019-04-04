@@ -1,5 +1,18 @@
+$primary:       #43050A;
+$secondary:     rgb(230, 201, 174);
+
+
+
+
+.section1{
+    background-color: $secondary;
+    
+}
+
+
+
 .circle-img {
-    height: 150px;
+    height: 100px;
     width: 100%;    
     
 }
@@ -49,7 +62,7 @@ $spacers: (15: ($spacer),
 .bgimage-op {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 80vh;
+    height: auto;
 
 }
 
@@ -60,11 +73,13 @@ $spacers: (15: ($spacer),
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    height: auto;
 }
 
 .bgimage h5 {
     color: white;
     text-shadow: 2px 2px #333;
+    
 }
 
 .btn-center {
@@ -83,6 +98,13 @@ $spacers: (15: ($spacer),
 
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.3rem !important;
+
+    @media (max-width: 800px) {
+        font-size: 1rem !important;
+    }
+}
 /* COLORS
 ========================================== */
 
@@ -176,11 +198,9 @@ body {
 .contact {
     position: relative;
     max-width: 500px;
-    padding: 40px 20px;
+    padding:30px 20px;
     overflow: hidden;
     margin: 0 auto;
-
-
 
     @media (min-width: 1024px) {
         position: absolute;
@@ -212,7 +232,7 @@ body {
                 max-height: 450px;
 
                 @media (min-width: 1024px) {
-                padding: 40px;
+                padding: 50px;
                 }
 
                 aside {
@@ -430,4 +450,3 @@ body {
     height: 200px;
     background-size: contain !important;
 }
-
