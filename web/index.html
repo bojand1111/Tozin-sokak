@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="section1">
+    <div class="section1 bg-secondary" id="home">
         <div class="container ">
             <div class="row mr-2 justify-content-between px-15 d-none d-md-flex ">
                 <div class="contakt ">
@@ -41,22 +41,22 @@
 
                         <ul class="navbar-nav justify-content-end">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Početna <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="#home">Početna <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Galerija</a>
+                                <a class="nav-link" href="#gallery">Galerija</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Mi nudimo</a>
+                                <a class="nav-link" href="#we-offer">Mi nudimo</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Zaposleni</a>
+                                <a class="nav-link " href="#employed">Zaposleni</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Cenovnik</a>
+                                <a class="nav-link " href="#pricelist">Cenovnik</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">Kontakt</a>
+                                <a class="nav-link " href="#contakt">Kontakt</a>
                             </li>
                         </ul>
                     </div>
@@ -126,7 +126,7 @@
     <!-- Hero image -->
 
     <!-- Pictures from the restaurant -->
-    <div class="section3 container pt-3">
+    <div class="section3 container pt-3" id="gallery">
         <h1 class="text-center display-4 pb-4">Galerija</h1>
         <div class="row ">
             <h3 class="display-4 col-lg-3 col-md-12 col-sm-12 p-0 pb-3 textC"> Neke od naših slika iz restorana</h3>
@@ -142,7 +142,7 @@
     </div>
     <!-- Pictures from the restaurant -->
     <!-- We offer -->
-    <div class="section4 container">
+    <div class="section4 container" id="we-offer">
         <h1 class="display-4 py-2 text-center"> Mi nudimo </h1>
         <div class="row text-center">
             <div class="col-lg-3 col-md-6 col-sm-6 pb-2"><img src="./images/menu.svg" class="circle-img "
@@ -168,7 +168,7 @@
     </div>
     <!-- We offer -->
     <!-- Employed -->
-    <div class="section5 container">
+    <div class="section5 container" id="employed">
         <p>
             <h1 class="display-4 text-center">Zaposleni</h1>
         </p>
@@ -185,7 +185,7 @@
     </div>
     <!-- Employed -->
     <!-- Pricelist -->
-    <div class="section6 container pl-0 pr-0 my-15 text-center">
+    <div class="section6 container pl-0 pr-0 my-15 text-center" id="pricelist">
         <div class=" offset-lg-1 col-lg-10 col-md-12 col-sm-12 ">
             <p>
                 <h1 class="display-4">Cenovnik</h1>
@@ -325,7 +325,7 @@
     </div>
     <!-- Pricelist -->
     <!-- Google map -->
-    <div class="section7 container">
+    <div class="section7 container" id="contakt">
         <p>
             <h1 class="display-4 text-center">Kontakt</h1>
         </p>
@@ -363,18 +363,18 @@
             </div>
         </div>
         <!-- Form -->
-        <!-- Footer -->
-        <footer class="page-footer font-small blue">
+    </div>
+    <!-- Footer -->    
+        <footer class="page-footer font-small blue bg-secondary">
 
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                <a href="#"> Tozin Sokak</a>
+            <div class="footer-copyright text-center py-3 ">© 2019 Copyright:
+                <a href="#home" class="text-decoration-none"> Tozin Sokak</a>
             </div>
             <!-- Copyright -->
-
-        </footer>
-        <!-- Footer -->
-        <script src="javascript/main.js"></script>
+        </footer>   
+    <!-- Footer -->
+    <script src="javascript/main.js"></script>
 </body>
 
 </html>

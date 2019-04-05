@@ -1,18 +1,8 @@
 $primary:       #43050A;
 $secondary:     rgb(230, 201, 174);
 
-
-
-
-.section1{
-    background-color: $secondary;
-    
-}
-
-
-
 .circle-img {
-    height: 100px;
+    height: 120px;
     width: 100%;    
     
 }
@@ -62,7 +52,7 @@ $spacers: (15: ($spacer),
 .bgimage-op {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: auto;
+    height: 90vh;
 
 }
 
