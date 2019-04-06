@@ -1,12 +1,38 @@
-$primary:       #43050A;
+$primary:       rgb(70, 1, 7);
 $secondary:     rgb(230, 201, 174);
+$danger:        rgb(165, 7, 7);
 
 .circle-img {
     height: 120px;
     width: 100%;    
     
 }
+.fa-facebook-f:hover{
+    color: #3B5999;
+}
+.fa-twitter:hover{
+    color:#1DA1F3;
+}
+.fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;      
+}
+.fa-pinterest-p:hover{
+    color: #D80419;
+}
+.fa-rss:hover{
+    color: #FF6600;
+}
 
+i:hover{
+    color: $danger;
+}
+
+.nav-link:hover{
+    color: $primary !important;
+}
 .google-map {
     height: 400px;
 }
