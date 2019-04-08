@@ -1,5 +1,24 @@
+
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+
+@import "./base/base";
+@import "./base/fonts";
+@import "./base/helpers";
+@import "./base/typography";
+
+@import "./components/button";
+@import "./components/carousel";
+@import "./components/card";
+
+@import "./layout/footer";
+@import "./layout/employed";
+@import "./layout/contact";
+@import "./layout/heroimage";
+@import "./layout/header";
+
 @import "custom";
-@import "carousel";
 
 @import "bootstrap";
 

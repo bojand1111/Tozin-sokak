@@ -31,5 +31,54 @@
       @content;
     }
   }
+
+
+
+  @mixin animation($animation) {
+    -webkit-animation: #{$animation};
+    -moz-animation: #{$animation};
+    -o-animation: #{$animation};
+    animation: #{$animation};
+}
+
+@mixin keyframes($keyframes) {
+    @-webkit-keyframes #{$keyframes} {
+        @content;
+    }
+
+    @-moz-keyframes #{$keyframes} {
+        @content;
+    }
+
+    @-o-keyframes #{$keyframes} {
+        @content;
+    }
+
+    @keyframes #{$keyframes} {
+        @content;
+    }
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin transition($transition) {
+    -webkit-transition: #{$transition};
+    -moz-transition: #{$transition};
+    -o-transition: #{$transition};
+    transition: #{$transition};
+}
+
+@mixin transition-delay($transition-delay) {
+    -webkit-transition-delay: #{$transition-delay};
+    -moz-transition-delay: #{$transition-delay};
+    -o-transition-delay: #{$transition-delay};
+    transition-delay: #{$transition-delay};
+}
   
   
