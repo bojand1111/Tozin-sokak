@@ -1,24 +1,44 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
-.nav-link:hover{
+
+
+
+.nav-link:hover {
     color: $primary !important;
 }
-.fa-facebook-f:hover{
+
+.info-bar{
+    a{
+        color: $black;
+    }
+}
+
+.social {
+    a {
+        color: $black !important;
+    }
+}
+
+.fa-facebook-f:hover {
     color: $facebook;
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
     color: $twitter;
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;      
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.fa-pinterest-p:hover{
+
+.fa-pinterest-p:hover {
     color: $pinterest;
 }
-.fa-rss:hover{
+
+.fa-rss:hover {
     color: $rss;
 }
