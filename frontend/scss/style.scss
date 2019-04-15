@@ -1,24 +1,23 @@
 
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
+@import "absvariables";
+@import "absmixins";
 
-@import "./base/base";
-@import "./base/fonts";
-@import "./base/helpers";
-@import "./base/typography";
+@import "base";
+@import "fonts";
+@import "helpers";
+@import "typography";
 
-@import "./components/button";
-@import "./components/carousel";
-@import "./components/card";
+@import "compbutton";
+@import "compcarousel";
+@import "compcard";
 
-@import "./layout/footer";
-@import "./layout/employed";
-@import "./layout/contact";
-@import "./layout/heroimage";
-@import "./layout/header";
+@import "footer";
+@import "employed";
+@import "contact";
+@import "heroimage";
+@import "header";
 
 @import "bootstrap";
-
 
 @import "fontawesome";
 @import "regular";
