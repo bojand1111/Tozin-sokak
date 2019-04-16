@@ -1,21 +1,21 @@
 
-@import "absvariables";
-@import "absmixins";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
-@import "base";
-@import "fonts";
-@import "helpers";
-@import "typography";
+@import "base/base";
+@import "base/fonts";
+@import "base/helpers";
+@import "base/typography";
 
-@import "compbutton";
-@import "compcarousel";
-@import "compcard";
+@import "components/button";
+@import "components/carousel";
+@import "components/card";
 
-@import "footer";
-@import "employed";
-@import "contact";
-@import "heroimage";
-@import "header";
+@import "layout/footer";
+@import "layout/employed";
+@import "layout/contact";
+@import "layout/heroimage";
+@import "layout/header";
 
 @import "bootstrap";
 
@@ -26,3 +26,5 @@
 
 @import "../node_modules/owl.carousel/src/scss/owl.theme.default.scss";
 @import "../node_modules/owl.carousel/src/scss/owl.carousel.scss";
+
+
