@@ -8,11 +8,11 @@
 @import "base/typography";
 
 @import "components/button";
-@import "components/carousel";
 @import "components/card";
+@import "components/gallery";
 
 @import "layout/footer";
-@import "layout/employed";
+@import "layout/dailyMenu";
 @import "layout/contact";
 @import "layout/heroimage";
 @import "layout/header";
@@ -24,7 +24,12 @@
 @import "solid";
 @import "brands";
 
+@import "../node_modules/lightgallery/src/sass/lightgallery.scss";
+
 @import "../node_modules/owl.carousel/src/scss/owl.theme.default.scss";
 @import "../node_modules/owl.carousel/src/scss/owl.carousel.scss";
+
+
+
 
 

@@ -4,11 +4,12 @@
 
 
 //Color
-
-$primary: #C7392A;
-$secondary: #F0E4DC;
+$info: rgb(7, 54, 75);
+$primary: #EA5F3D;
+$secondary: #F4F5F7;
 $danger: rgb(165, 7, 7);
 $white: #ffffff;
+
 $black: #000000;
 
 // Social media
@@ -20,19 +21,12 @@ $rss: #FF6600;
 $bg-color: #051321;
 
 //btn-animation
-
-$color-1: #eb524a;
 $color-2: #c63535;
 $color-3: #ffbe44;
-
+$color-4:#24292D;
 
 //spacers
 
 $spacer: 15px;
 $spacers: (15: ($spacer),
 );
-
-
-.mar{
-    margin-right: 11.4% !important;
-}

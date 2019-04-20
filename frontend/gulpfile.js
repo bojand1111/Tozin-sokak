@@ -24,7 +24,7 @@ gulp.task('sass', function () {
         outputStyle: 'nested',  // expanded, nested, compact, compressed
         includePaths: [
           './node_modules/bootstrap/scss',
-          './node_modules/@fortawesome/fontawesome-free/scss'          
+          './node_modules/@fortawesome/fontawesome-free/scss'
         ],
         sourceMap: true,              // Inline source maps (preferred)
         sourceMapContents: true,      // Needed for node-sass generation of the maps
@@ -74,7 +74,6 @@ gulp.task('javascript', function () {
     './node_modules/featherlight/src/featherlight.js',
     './node_modules/featherlight/src/featherlight.gallery.js',    
     './javascript/custom.js'
-
   ];
   return gulp.src(jsOrder)
       .pipe(concat('main.js'))
@@ -128,4 +127,7 @@ gulp.task ( 'watch', function () {
 });
 
 // Default task that includes fonts and other tasks in single run
-gulp.task('default', ['sass', 'javascript','images']);
+gulp.task('default', ['sass', 'javascript', 'images']);
+
+
+
