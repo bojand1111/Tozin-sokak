@@ -1,3 +1,10 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+.sh {
+    -webkit-box-shadow: 0px -2px 12px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -2px 12px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -2px 12px -8px rgba(0, 0, 0, 0.75);
+}
+
+
+.facebook {
+    color: $facebook ;
+}

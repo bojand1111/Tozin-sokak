@@ -28,8 +28,6 @@ $('.btn-click').click(function () {
   $('.dropdown-toggle').toggleClass('active');
 });
 
-
-
 $(function () {
   var selectedClass = "";
   $(".filter").click(function () {

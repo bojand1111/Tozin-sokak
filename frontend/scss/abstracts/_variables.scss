@@ -28,5 +28,19 @@ $color-4:#24292D;
 //spacers
 
 $spacer: 15px;
-$spacers: (15: ($spacer),
+$spacers: (
+    15: ($spacer),
+    10:(20*$spacer)
+);
+
+
+//breakpoint
+
+$grid-breakpoints: (
+xs:0,
+xsm: 320px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
 );

@@ -9,9 +9,10 @@
     color: $primary !important;
 }
 
-.nav-link{
-    font-size:1.2rem;
+.nav-link {
+    font-size: 1.2rem;
 }
+
 
 .info-bar {
     a {
@@ -25,13 +26,14 @@
     }
 }
 
-.fa-2x{
+.fa-2x {
     font-size: 1.5em !important;
 }
 
 .fa-facebook-f:hover {
     color: $facebook;
 }
+
 
 .fa-twitter:hover {
     color: $twitter;
@@ -51,4 +53,3 @@
 .fa-rss:hover {
     color: $rss;
 }
-

@@ -21680,6 +21680,9 @@ $('.btn-click').click(function () {
   $('.dropdown-toggle').toggleClass('active');
 });
 
+
+
+
 $(function () {
   var selectedClass = "";
   $(".filter").click(function () {
@@ -21692,8 +21695,3 @@ $(function () {
     }, 300);
   });
 });
-
-lightbox.option({
-  'resizeDuration': 200,
-  'wrapAround': true
-})

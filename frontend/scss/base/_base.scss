@@ -5,3 +5,9 @@
 i:hover{
   color: $danger;
 }
+
+button:focus{
+  outline: 0;
+}
+
+$link-hover-decoration:                   none;

@@ -1,10 +1,19 @@
-.all{
+.all {
     display: flex;
     justify-content: center;
-    padding: 1rem ;
+    padding: 1rem;
 }
-.img-box{
+
+.img-box {
     width: 300px !important;
     height: auto;
-    background-size: contain !important;    
+    background-size: contain !important;
+}
+
+#btn-ac:focus {
+    color: $primary;
+    -moz-box-shadow: 0 0 0 0.1rem $primary !important;
+    -webkit-box-shadow: 0 0 0 0.1rem $primary !important;
+    box-shadow: 0 0 0 0.1rem $primary !important;
+    border-radius: 10px;
 }
