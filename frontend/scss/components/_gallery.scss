@@ -16,4 +16,9 @@
     border-radius: 10px;    
 }
 
-
+.lb-nav a.lb-prev, a.lb-next{
+    opacity: 0.5 !important;
+}
+.lb-nav a.lb-prev:hover, a.lb-next:hover{
+    opacity: 1 !important;
+}
