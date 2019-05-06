@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link" id="nesto" href="#home">Početna</a>
+                        <a class="nav-link nav-active" id="nesto" href="#home">Početna</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="nesto" href="#daily-menu">Dnevni Meni</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nesto" href="#gallery">Mi nudimo</a>
+                        <a class="nav-link" id="nesto" href="#we-offer">Mi nudimo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="nesto" href="#we-offer">Galerija</a>
+                        <a class="nav-link" id="nesto" href="#gallery">Galerija</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " id="nesto" href="#menu">Meni</a>
@@ -53,15 +53,15 @@
     <div class="bgimage">
         <div class="bgimage-op d-flex align-items-center">
             <div class="container text-center">
-                <h1 class="text-white pb-5" id="space" >Dobro došli na websajt Tozin sokak</h1>
+                <h1 class="text-white pb-5" id="space">Dobro došli na websajt Tozin sokak</h1>
                 <div class="row pt-5 ">
                     <div class="col-lg-6 col-md-12 col-sm-12 justify-content-center pb-5">
                         <h2 class="text-white pb-3">Dnevni meni 350 din</h2>
-                        <a class="btn btns btn-primary btn-lg"  href="#daily-menu" role="button">Poruči dnevni meni </a>
+                        <a class="btn btns btn-primary btn-lg" href="#daily-menu" role="button">Poruči dnevni meni </a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 justify-content-center">
                         <h2 class="text-white pb-3">Pogledajte naš raznovrsni meni</h2>
-                        <a class="btn btns btn-primary btn-lg"   href="#menu" role="button">Raznovrsni meni </a>
+                        <a class="btn btns btn-primary btn-lg" href="#menu" role="button">Raznovrsni meni </a>
                     </div>
                 </div>
             </div>
@@ -195,8 +195,8 @@
     <div class="container">
         <h1 class="col-12 text-center py-5">Galerija</h1>
         <div class="row text-center justify-content-center">
-            <div class="mb-5">
-                <button type="button" class="btn btn-outline-black waves-effect filter" id="btn-ac" data-rel="all">Sve
+            <div class="mb-5" id="row-nav">
+                <button type="button" class="btn btn-active btn-outline-black waves-effect filter " id="btn-ac" data-rel="all">Sve
                     slike</button>
                 <button type="button" class="btn btn-outline-black waves-effect filter" id="btn-ac"
                     data-rel="1">Doručak</button>
@@ -278,22 +278,23 @@
             <div class="card bg-info" id="card1">
                 <div class="card-header spacer" id="heading1">
                     <h2 class="mb-0 cd ">
-                        <button class="btn text-white btn-link d-flex w-100 px-4 text-decoration-none" type="button"
-                            data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+                        <button
+                            class="btn text-white btn-link d-flex w-100 justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
                             aria-controls="collapse1">
-                            <h5 class="col-lg-6 ">Doručak</h5>
-                            <h5 class="col-lg-6 ">Cena</h5>
+                            <h5 class="">Doručak</h5>
+
                         </button>
                     </h2>
                 </div>
 
                 <div id="collapse1" class="collapse  text-primary " aria-labelledby="heading1"
                     data-parent="#accordionExample">
-                    <div class="card-body card-border d-flex px-5 ">
+                    <div class="card-body card-border py-2 d-flex px-5 ">
                         <p class="col-lg-6 ">Domaća supa</p>
                         <p class="col-lg-6 ">80 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5 ">
+                    <div class="card-body card-border py-2 d-flex px-5 ">
                         <p class="col-lg-6 ">Domaća supa</p>
                         <p class="col-lg-6 ">80 din</p>
                     </div>
@@ -302,57 +303,58 @@
             <div class="card bg-info" id="card2">
                 <div class="card-header spacer " id="heading1">
                     <h2 class="mb-0 cd ">
-                        <button class="btn text-white btn-link d-flex w-100  px-4 text-decoration-none" type="button"
-                            data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
+                        <button
+                            class="btn text-white btn-link d-flex w-100  justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
                             aria-controls="collapse1">
-                            <h5 class="col-lg-6 ">Gotova jela</h5>
-                            <h5 class="col-lg-6 ">Cena</h5>
+                            <h5>Gotova jela</h5>
+
                         </button>
                     </h2>
                 </div>
                 <div id="collapse2" class="collapse text-primary " aria-labelledby="heading1"
                     data-parent="#accordionExample">
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 ">Pasulj sa mesom</p>
                         <p class="col-lg-6 ">260 din</p>
                     </div>
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 "> Juneći gulaš</p>
                         <p class="col-lg-6 ">320 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 "> Sarma sa suvim mesom</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 "> Musaka</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 "> Grašak sa mesom</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 "> Pileći paprikaš</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 "> Ćufte u sosu</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 "> Slatki kupus sa mesom</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 "> Prebranac sa kobasicom</p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 "> Podvarak sa mesom</p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex  px-5">
+                    <div class="card-body card-border py-2 d-flex  px-5">
                         <p class="col-lg-6 "> Pileći pilav</p>
                         <p class="col-lg-6 ">260 din</p>
                     </div>
@@ -361,37 +363,38 @@
             <div class="card bg-info" id="card3">
                 <div class="card-header spacer " id="heading1">
                     <h2 class="mb-0 cd ">
-                        <button class="btn btn-link text-white d-flex w-100  px-4 text-decoration-none" type="button"
-                            data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
+                        <button
+                            class="btn btn-link text-white d-flex w-100  justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
                             aria-controls="collapse1">
-                            <h5 class="col-lg-6 ">Roštilj</h5>
-                            <h5 class="col-lg-6 ">Cena</h5>
+                            <h5>Roštilj</h5>
+
                         </button>
                     </h2>
                 </div>
                 <div id="collapse3" class="collapse text-primary " aria-labelledby="heading1"
                     data-parent="#accordionExample">
-                    <div class="card-body card-border d-flex justify-content-between px-5">
+                    <div class="card-body card-border py-2 d-flex justify-content-between px-5">
                         <p class="col-lg-6 "> Belo meso</p>
                         <p class="col-lg-6 ">80 din</p>
                     </div>
-                    <div class="card-body card-border d-flex justify-content-between px-5">
+                    <div class="card-body card-border py-2 d-flex justify-content-between px-5">
                         <p class="col-lg-6 "> Punjeno belo meso</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex justify-content-between px-5">
+                    <div class="card-body card-border py-2 d-flex justify-content-between px-5">
                         <p class="col-lg-6 "> Pohovano belo meso</p>
                         <p class="col-lg-6 ">280 din</p>
                     </div>
-                    <div class="card-body card-border d-flex justify-content-between px-5">
+                    <div class="card-body card-border py-2 d-flex justify-content-between px-5">
                         <p class="col-lg-6 "> Punjeno pohovano belo meso</p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex justify-content-between px-5">
+                    <div class="card-body card-border py-2 d-flex justify-content-between px-5">
                         <p class="col-lg-6 "> Karađorđeva šnicla</p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex justify-content-between px-5">
+                    <div class="card-body card-border py-2 d-flex justify-content-between px-5">
                         <p class="col-lg-6 "> Roštilj 1kg</p>
                         <p class="col-lg-6 ">900 din</p>
                     </div>
@@ -400,33 +403,34 @@
             <div class="card bg-info" id="card1">
                 <div class="card-header spacer " id="heading1">
                     <h2 class="mb-0 cd ">
-                        <button class="btn btn-link d-flex text-white w-100  px-4 text-decoration-none" type="button"
-                            data-toggle="collapse" data-target="#collapse4" aria-expanded="true"
+                        <button
+                            class="btn btn-link d-flex text-white w-100  justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true"
                             aria-controls="collapse1">
-                            <h5 class="col-lg-6 ">Pohovano</h5>
-                            <h5 class="col-lg-6 ">Cena</h5>
+                            <h5>Pohovano</h5>
+
                         </button>
                     </h2>
                 </div>
                 <div id="collapse4" class="collapse  text-primary" aria-labelledby="heading1"
                     data-parent="#accordionExample">
-                    <div class="card-body card-border d-flex  px-5 ">
+                    <div class="card-body card-border py-2 d-flex  px-5 ">
                         <p class="col-lg-6 ">Pohovano punjeno belo</p>
                         <p class="col-lg-6 "> din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 ">Karađorđeva svinjska šnicla </p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 ">Karađorđeva svinjska šnicla </p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 ">Karađorđeva svinjska šnicla </p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
-                    <div class="card-body card-border d-flex px-5">
+                    <div class="card-body card-border py-2 d-flex px-5">
                         <p class="col-lg-6 ">Karađorđeva svinjska šnicla </p>
                         <p class="col-lg-6 ">300 din</p>
                     </div>
@@ -435,20 +439,21 @@
             <div class="card bg-info" id="card5">
                 <div class="card-header spacer " id="heading1">
                     <h2 class="mb-0 cd ">
-                        <button class="btn btn-link d-flex w-100 text-white jpx-4 text-decoration-none" type="button"
-                            data-toggle="collapse" data-target="#collapse5" aria-expanded="true"
+                        <button
+                            class="btn btn-link d-flex w-100 text-white justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true"
                             aria-controls="collapse1">
-                            <h5 class="col-lg-6 ">Supe i čorbe</h5>
-                            <h5 class="col-lg-6 ">Cena</h5>
+                            <h5>Supe i čorbe</h5>
+
                         </button>
                     </h2>
                 </div>
                 <div id="collapse5" class="collapse  " aria-labelledby="heading1" data-parent="#accordionExample">
-                    <div class="card-body card-border d-flex text-primary  px-5 ">
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5 ">
                         <p class="col-lg-6 ">Domaća supa</p>
                         <p class="col-lg-6 ">80 din</p>
                     </div>
-                    <div class="card-body card-border d-flex text-primary  px-5">
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5">
                         <p class="col-lg-6 ">Ragu čorba</p>
                         <p class="col-lg-6 ">120 din</p>
                     </div>
@@ -457,156 +462,136 @@
             <div class="card bg-info" id="card6">
                 <div class="card-header spacer " id="heading1">
                     <h2 class="mb-0 cd ">
-                        <button class="btn btn-link d-flex w-100 text-white jpx-4 text-decoration-none" type="button"
-                            data-toggle="collapse" data-target="#collapse6" aria-expanded="true"
+                        <button
+                            class="btn btn-link d-flex w-100 text-white justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true"
                             aria-controls="collapse1">
-                            <h5 class="col-lg-6 ">Prilog</h5>
-                            <h5 class="col-lg-6 ">Cena</h5>
+                            <h5>Prilog</h5>
+
                         </button>
                     </h2>
                 </div>
                 <div id="collapse6" class="collapse  " aria-labelledby="heading1" data-parent="#accordionExample">
-                    <div class="card-body card-border d-flex text-primary  px-5 ">
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5 ">
                         <p class="col-lg-6 ">Domaća supa</p>
                         <p class="col-lg-6 ">80 din</p>
                     </div>
-                    <div class="card-body card-border d-flex text-primary  px-5">
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5">
                         <p class="col-lg-6 ">Ragu čorba</p>
                         <p class="col-lg-6 ">120 din</p>
                     </div>
-                    </di <div class="card bg-info" id="card7">
-                    <div class="card-header spacer " id="heading1">
-                        <h2 class="mb-0 cd ">
-                            <button class="btn btn-link d-flex w-100 text-white  px-4 text-decoration-none"
-                                type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="true"
-                                aria-controls="collapse7">
-                                <h5 class="col-lg-6 ">Salata</h5>
-                                <h5 class="col-lg-6 ">Cena</h5>
-                            </button>
-                        </h2>
+                </div>
+            </div>
+            <div class="card bg-info" id="card7">
+                <div class="card-header spacer " id="heading1">
+                    <h2 class="mb-0 cd ">
+                        <button
+                            class="btn btn-link d-flex w-100 text-white  justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="true"
+                            aria-controls="collapse7">
+                            <h5>Salata</h5>
+
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapse7" class="collapse  " aria-labelledby="heading1" data-parent="#accordionExample">
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5 ">
+                        <p class="col-lg-6 ">Domaća supa</p>
+                        <p class="col-lg-6 ">80 din</p>
                     </div>
-                    <div id="collapse7" class="collapse  " aria-labelledby="heading1" data-parent="#accordionExample">
-                        <div class="card-body card-border d-flex text-primary  px-5 ">
-                            <p class="col-lg-6 ">Domaća supa</p>
-                            <p class="col-lg-6 ">80 din</p>
-                        </div>
-                        <div class="card-body card-border d-flex text-primary  px-5">
-                            <p class="col-lg-6 ">Ragu čorba</p>
-                            <p class="col-lg-6 ">120 din</p>
-                        </div>
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5">
+                        <p class="col-lg-6 ">Ragu čorba</p>
+                        <p class="col-lg-6 ">120 din</p>
                     </div>
                 </div>
-                <div class="card bg-info" id="card2">
-                    <div class="card-header spacer" id="heading2">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link text-white d-flex w-100  px-4 text-decoration-none"
-                                type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="true"
-                                aria-controls="collapse2">
-                                <h5 class="col-lg-6 ">Deserti</h5>
-                                <h5 class="col-lg-6 ">Cena</h5>
-                            </button>
-                        </h2>
-                    </div>
+            </div>
+            <div class="card bg-info" id="card8">
+                <div class="card-header spacer " id="heading1">
+                    <h2 class="mb-0 cd ">
+                        <button
+                            class="btn btn-link d-flex w-100 text-white  justify-content-center px-4 text-decoration-none"
+                            type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="true"
+                            aria-controls="collapse7">
+                            <h5>Piće</h5>
 
-                    <div id="collapse8" class="collapse text-primary" aria-labelledby="heading2"
-                        data-parent="#accordionExample">
-                        <div class="card-body card-border d-flex  px-5 ">
-                            <p class="col-lg-6 ">Domaća supa</p>
-                            <p class="col-lg-6 ">80 din</p>
-                        </div>
-                        <div class="card-body card-border d-flex   px-5">
-                            <p class="col-lg-6 ">Ragu čorba</p>
-                            <p class="col-lg-6 ">120 din</p>
-                        </div>
-                    </div>
+                        </button>
+                    </h2>
                 </div>
-                <div class="card bg-info" id="card9">
-                    <div class="card-header spacer" id="heading3">
-                        <h2 class="mb-0">
-                            <button
-                                class="btn btn-link d-flex w-100  text-white justify-content-between px-4 text-decoration-none"
-                                type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="true"
-                                aria-controls="collapse9">
-                                <h5 class="col-lg-6 ">Piće</h5>
-                                <h5 class="col-lg-6 ">Cena</h5>
-                            </button>
-                        </h2>
 
+                <div id="collapse8" class="collapse  " aria-labelledby="heading1" data-parent="#accordionExample">
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5 ">
+                        <p class="col-lg-6 ">Domaća supa</p>
+                        <p class="col-lg-6 ">80 din</p>
                     </div>
-                    <div id="collapse9" class="collapse text-primary" aria-labelledby="heading3"
-                        data-parent="#accordionExample">
-                        <div class="card-body card-border d-flex   px-5 ">
-                            <p class="col-lg-6 ">Domaća supa</p>
-                            <p class="col-lg-6 ">80 din</p>
-                        </div>
-                        <div class="card-body card-border d-flex   px-5">
-                            <p class="col-lg-6 ">Ragu čorba</p>
-                            <p class="col-lg-6 ">120 din</p>
-                        </div>
+                    <div class="card-body card-border py-2 d-flex text-primary  px-5">
+                        <p class="col-lg-6 ">Ragu čorba</p>
+                        <p class="col-lg-6 ">120 din</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Menu -->
+    </div>
+    <!-- Menu -->
+    <!-- Google map -->
+    <p>
+        <h1 class="text-center py-5">Kontakt</h1>
+    </p>
+    <div class="google-map col-lg-12 col-md-12 col-sm-12 mx-0 px-0"><iframe width="100%" height="400"
+            src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;coord=45.25522674233216,19.804551601409916&amp;q=+(Tozin%20sokak)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
+                href="https://www.maps.ie/map-my-route/">Draw map route</a></iframe></div><br />
+    <div class="container" id="contakt">
         <!-- Google map -->
-        <p>
-            <h1 class="text-center py-5">Kontakt</h1>
-        </p>
-        <div class="google-map col-lg-12 col-md-12 col-sm-12 mx-0 px-0"><iframe width="100%" height="400"
-                src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;coord=45.25522674233216,19.804551601409916&amp;q=+(Tozin%20sokak)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-                    href="https://www.maps.ie/map-my-route/">Draw map route</a></iframe></div><br />
-        <div class="container" id="contakt">
-            <!-- Google map -->
-            <!-- Form -->
-            <div class="container">
-                <div class="row ">
-                    <div class="col-lg-6 col-md-12 col-sm-12 my-3 text-center">
-                        <p><i class="fas fa-2x fa-mobile-alt pr-2 text-primary"></i><b> Mobilni telefon :</b><a
-                                href="tel:+381665185150">+38166161561</p></a>
-                        <p><i class="fas fa-2x fa-phone pr-2 text-primary"></i><b> Telefon :</b><a
-                                href="tel:+0216300988">021-6300-988</p></a>
-                        <p><i class="far fa-2x fa-clock pr-2 text-primary"></i><b>Radno Vreme :</b><br> Ponedeljak-Petak
-                            od 8:00h do 18:00h<br> Subota od 8:00h-16:00h
-                        </p>
-                        <p><i class="fas fa-2x  fa-map-marked-alt pr-2 text-primary"></i><b>Lokacija :</b> Toze Todora
-                            Jovanovića </p>
-                    </div>
-                    <form class="col-lg-6 col-md-12 col-sm-12 pr-0">
-                        <div class="col my-2">
-                            <input type="text" class="form-control" placeholder="Ime">
-                        </div>
-                        <div class="col my-2">
-                            <input type="text" class="form-control" placeholder="Prezime">
-                        </div>
-                        <div class="col my-2">
-                            <input type="text" class="form-control" placeholder="e-mail">
-                        </div>
-                        <div class="col my-2">
-                            <textarea class="form-control" placeholder="Poruka"></textarea>
-                        </div>
-                        <div class="col d-flex justify-content-end pb-3">
-                            <button type="button" class="btn btn-info">Pošalji</button>
-                        </div>
-                    </form>
+        <!-- Form -->
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-3 text-center">
+                    <p><i class="fas fa-2x fa-mobile-alt pr-2 text-primary"></i><b> Mobilni telefon :</b><a
+                            href="tel:+381665185150">+38166161561</p></a>
+                    <p><i class="fas fa-2x fa-phone pr-2 text-primary"></i><b> Telefon :</b><a
+                            href="tel:+0216300988">021-6300-988</p></a>
+                    <p><i class="far fa-2x fa-clock pr-2 text-primary"></i><b>Radno Vreme :</b><br> Ponedeljak-Petak
+                        od 8:00h do 18:00h<br> Subota od 8:00h-16:00h
+                    </p>
+                    <p><i class="fas fa-2x  fa-map-marked-alt pr-2 text-primary"></i><b>Lokacija :</b> Toze Todora
+                        Jovanovića </p>
                 </div>
+                <form class="col-lg-6 col-md-12 col-sm-12 pr-0">
+                    <div class="col my-2">
+                        <input type="text" class="form-control" placeholder="Ime">
+                    </div>
+                    <div class="col my-2">
+                        <input type="text" class="form-control" placeholder="Prezime">
+                    </div>
+                    <div class="col my-2">
+                        <input type="text" class="form-control" placeholder="e-mail">
+                    </div>
+                    <div class="col my-2">
+                        <textarea class="form-control" placeholder="Poruka"></textarea>
+                    </div>
+                    <div class="col d-flex justify-content-end pb-3">
+                        <button type="button" class="btn btn-primary rounded-pill">Pošalji</button>
+                    </div>
+                </form>
             </div>
-            <!-- Form -->
         </div>
-        <!-- Footer -->
-        <footer class="page-footer font-small bg-secondary sh">
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 ">© 2019 Copyright:
-                <a href="#home" class="text-decoration-none"> Tozin Sokak</a>
-                <a href="https://www.facebook.com/Tozin-Sokak-351571132094821/"><i
-                        class="fab fa-2x fa-facebook-f pl-3 facebook" data-target="" ` draggable="false"></i></a>
-            </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
-        <script src="javascript/main.js"></script>
-        <script src="javascript/lightbox-plus-jquery.js"></script>
-        <script src="javascript/lightbox.min.js"></script>
+        <!-- Form -->
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-secondary sh">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 ">© 2019 Copyright:
+            <a href="#home" class="text-decoration-none"> Tozin Sokak</a>
+            <a href="https://www.facebook.com/Tozin-Sokak-351571132094821/"><i
+                    class="fab fa-2x fa-facebook-f pl-3 facebook" data-target="" ` draggable="false"></i></a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="javascript/main.js"></script>
+    <script src="javascript/lightbox-plus-jquery.js"></script>
+    <script src="javascript/lightbox.min.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,30 @@ button:focus {
     text-align: center;
     border-radius: 30px !important;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: .5px;
     text-transform: uppercase;
 }
+
+.btn-info {
+    text-align: center;
+    border-radius: 30px !important;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 1px 6px 9px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 6px 9px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 6px 9px -9px rgba(0, 0, 0, 0.75);
+}
+
+.btn{
+    transition: none !important;    
+}
+
+.btn-active{
+    color: $primary !important;
+    border: 1px solid $primary !important;    
+    border-radius: 10px !important;    
+}
+
