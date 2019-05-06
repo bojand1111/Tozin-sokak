@@ -21680,9 +21680,6 @@ $('.btn-click').click(function () {
   $('.dropdown-toggle').toggleClass('active');
 });
 
-
-
-
 $(function () {
   var selectedClass = "";
   $(".filter").click(function () {
@@ -21694,4 +21691,18 @@ $(function () {
       $("#gallery").fadeTo(300, 1);
     }, 300);
   });
+});
+
+var header = document.getElementById("row-nav");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("btn-active");
+  current[0].className = current[0].className.replace(" btn-active", "");
+  this.className += " btn-active";
+    });
+}
+
+$(document).ready(function(){
+  $(".btn-link").click(); 
 });
